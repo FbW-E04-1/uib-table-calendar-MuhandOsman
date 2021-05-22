@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+}
+
+table {
+    margin-top: 3em;
+    border-collapse: collapse;
+    table-layout: fixed;
+    width: 100%;
+    
+}
+h1 {
+    text-align: center;
+    }
+
+caption {
+    margin-top: 1rem;
+    caption-side: bottom;
+    font-size: 2rem;
+}
+
+td {
+    border: 2px black solid;
+    text-align: center;
+}
+
+
+ thead, tfoot{
+     color: white;
+     background-color: #000;
+     
+ }
+thead,thead tr th, thead tr{
+     position: sticky;
+     top: 0px;
+ }
+
+ tbody th {
+     background-color: rgb(54, 52, 52);
+     color: white;
+     text-align: right;
+ }
+
+ tbody tr:nth-child(7n-1),tbody tr:nth-child(7n){
+     background-color: lightgreen;
+ }
+
+ body, :empty{
+    background-color: #ccc;
+    border: none;
+}
+
+tfoot,tfoot tr,tfoot th{
+    position: sticky;
+    bottom: 0;
+}
+img {
+    position: absolute;
+    right: 0;
+    bottom: 0px;
+}
